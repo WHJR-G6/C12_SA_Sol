@@ -37,15 +37,7 @@ function draw() {
     jack.velocityY=-10
   }
 
-  if(keyDown("left"))
-  {
-    jack.x = jack.x - 7;
-  }
 
-  if(keyDown("right"))
-  {
-    jack.x = jack.x + 7;
-  }
 
   jack.velocityY = jack.velocityY +0.8;
   jack.collide(platform)
